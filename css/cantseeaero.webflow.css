@@ -488,6 +488,13 @@ body {
   grid-row-gap: 40px;
 }
 
+.text-block {
+  color: var(--white);
+  text-align: center;
+  position: absolute;
+  inset: auto 0% 28%;
+}
+
 @media screen and (max-width: 991px) {
   .columns {
     flex-direction: column;
@@ -525,6 +532,14 @@ body {
 
   .subheading {
     font-size: 16px;
+  }
+
+  .hero-image-wrapper {
+    width: 180%;
+  }
+
+  .hero-section {
+    overflow: hidden;
   }
 
   .mask {
